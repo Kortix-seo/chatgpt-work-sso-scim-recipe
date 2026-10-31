@@ -56,7 +56,7 @@ kortix self-host doctor
 - It does not automate the identity provider side. Entra's UI changes; the five steps above are the order that matters.
 - It does not test your recovery path. Do that by hand: remove the only admin from the IdP group and confirm you can still get back in as the instance operator.
 
-Kortix is the open-source AI Operating System: agents, skills, company memory and connectors in one git repository you own. Free to start, free to self-host.
+Kortix is the open-source CompanyOS: agents, skills, company memory and connectors in one git repository you own. Free to start, free to self-host.
 
 ## Licence
 
