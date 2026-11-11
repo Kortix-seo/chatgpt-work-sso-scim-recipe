@@ -50,6 +50,8 @@ kortix self-host doctor
 
 `kortix self-host doctor` is the one to keep running until every check passes. Sessions run on sandboxes outside the instance, so the instance has to be reachable from the internet for them to call back; an identity provider that can reach it and a sandbox that cannot is a split-brain you find during the first session, not during setup.
 
+Identity is one half of the switch. [The switching FAQ](https://chatgptworkalternative.com/faq) answers the first-week questions on the other half, each with its mechanism, and [ChatGPT workspace agents](https://chatgptworkalternative.com/chatgpt-workspace-agents) shows what a shared agent's app authentication and write approvals become when they are configuration in your repo instead of settings in OpenAI's workspace.
+
 ## What this repository will not tell you
 
 - It does not claim parity with any specific ChatGPT Enterprise identity feature. Read OpenAI's own admin documentation for what Work does; read [kortix.com/blog/chatgpt-work-for-enterprise](https://kortix.com/blog/chatgpt-work-for-enterprise) for the comparison with OpenAI's sentences quoted beside each row.
